@@ -42,7 +42,7 @@ permalink: /about/
         border-radius: 5px;
     }
     .imageflag img {
-        width: 500px;
+        width: 100px;
     } 
 
 </style>
