@@ -44,26 +44,25 @@ permalink: /about/
     .imageflag img {
         width: 100px;
     } 
+    .image-row {
+    display: flex;
+    justify-content: space-between; /* this will add equal space between each image */
+    }    
 
 </style>
 
 ## Culture and Family
 
-<div class="arshia-flag" id="arshia-flag">
-    Why do you think this flag is significant to me?
+<div class="image-row">
     <img 
         src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg" 
         alt="India Flag" 
         class="imageflag" /> 
-    <p> Namaste. <br/>India - Land Of Diversity </p> 
     <img 
         src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" 
         alt="California Flag" 
         class="imageflag" /> 
-    <p> Hi. <br/>California - The golden State </p> 
 </div>
-
-
 
 <!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
 <div class="arshia-grid-container" id="arshia-grid_container">
