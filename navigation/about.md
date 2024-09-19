@@ -37,8 +37,8 @@ permalink: /about/
         border-radius: 5px;
     }
     .image-flag img {
-        max-height: 50px;
-        max-width: 50px;
+        max-height: 100px;
+        max-width: 100px;
         border-radius: 5px;
     }
 </style>
@@ -126,8 +126,10 @@ Gallery of Pics, scroll to the right for more ...
 
 # Fun Facts 
 
-I really love cats and I want a cat in the future. 
+🐈 I really love cats and I want a cat in the future. 
 
-I love to go to the beach. 
+🌊 I love to go to the beach. 
 
-I am trilingual and can speak english, hindi, and bengali. 
+✨ I am trilingual and can speak english, hindi, and bengali. 
+
+🥑 I love avocados and put them on everything. 
