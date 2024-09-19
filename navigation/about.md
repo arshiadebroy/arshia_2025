@@ -68,15 +68,15 @@ permalink: /about/
 </div>
 
 <!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
-<div class="arshia-grid-container" id="arshia-grid_container">
+<div class="arshia-grid-container" id="arshia-grid-container">
     <!-- content will be added here by JavaScript -->
 </div>
 
 <script>
 
     console.log("I am working 1");
-    // var container = document.getElementById("arshia-grid-container");
-    var container = document.createElement("div");
+    var container = document.getElementById("arshia-grid-container");
+    // var container = document.createElement("div");
     
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
