@@ -56,17 +56,6 @@ permalink: /about/
 
 ## Culture and Family
 
-<div class="image-row">
-    <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg" 
-        alt="India Flag" 
-        class="imageflag" /> 
-    <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" 
-        alt="California Flag" 
-        class="imageflag" /> 
-</div>
-
 <!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
 <div class="arshia-grid-container" id="arshia-grid-container">
     <!-- content will be added here by JavaScript -->
