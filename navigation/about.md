@@ -41,6 +41,10 @@ permalink: /about/
         max-width: 100px;
         border-radius: 5px;
     }
+    .imageflag img {
+        width: 500px;
+    } 
+
 </style>
 
 ## Culture and Family
@@ -50,12 +54,12 @@ permalink: /about/
     <img 
         src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg" 
         alt="India Flag" 
-        class="image-flag" /> 
+        class="imageflag" /> 
     <p> Namaste. <br/>India - Land Of Diversity </p> 
     <img 
         src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" 
         alt="California Flag" 
-        class="image-flag" /> 
+        class="imageflag" /> 
     <p> Hi. <br/>California - The golden State </p> 
 </div>
 
