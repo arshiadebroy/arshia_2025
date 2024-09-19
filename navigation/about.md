@@ -3,6 +3,7 @@ layout: page
 title: About Me 
 description: My name is Arshia Deb Roy.
 permalink: /about/
+comments: true
 ---
 
 <style>
