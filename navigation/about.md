@@ -48,7 +48,7 @@ permalink: /about/
     .image-row {
         text-align: left;
         display: flex;
-        gap: 10px;
+        gap: 1px;
         justify-content: space-between; /* this will add equal space between each image */
     }    
 

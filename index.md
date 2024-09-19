@@ -30,6 +30,21 @@ My journey starts here arshia deb roy
 .dropbtn:hover {
 | background-color: #ff1493;
 }
+
+.button {
+  background-color: #ff6eb2; /* Green */
+  border: none;
+  color: purple;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 12px;}
 </style>
 
 
@@ -37,14 +52,14 @@ My journey starts here arshia deb roy
     <p> The button underneath represents my love of asmr. I enjoy asmr so much that me and my friends regularly do asmr together and we help each other relax through doing this. </p>
 </div>
 <a href="https://www.youtube.com/watch?v=-2RiNR2fqRY">
-<button>ASMR video</button>
+<button class="button button1">ASMR video</button>
 </a>
 
 <div>
     <p> The button underneath represents my love of cats. I love cats so much and I really want a bengal cat in the future. The button below takes you to a website that has new cats to learn about everyday. </p>
 </div>
 <a href="https://dailykitten.com/">
-<button>Daily cats</button>
+<button class="button button1">Daily cats</button>
 </a>
 
 
