@@ -41,11 +41,14 @@ permalink: /about/
         max-width: 100px;
         border-radius: 5px;
     }
-    .imageflag img {
+    .imageflag {
         width: 100px;
+        height: 100px;
     } 
     .image-row {
     display: flex;
+    gap: 10px;
+    overflow-x: auto;
     justify-content: space-between; /* this will add equal space between each image */
     }    
 
@@ -67,6 +70,7 @@ permalink: /about/
 <!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
 <div class="arshia-grid-container" id="arshia-grid_container">
     <!-- content will be added here by JavaScript -->
+    <p>this will be added</p>
 </div>
 
 <script>
@@ -87,25 +91,31 @@ permalink: /about/
         var gridItem = document.createElement("div");
         gridItem.className = "grid-item";  // This class name connects the gridItem to the CSS style elements
         // Add "img" HTML tag for the flag
+
+        console.log("I am working 4");
         var img = document.createElement("img");
         img.src = http_source + location.flag; // concatenate the source and flag
         img.alt = location.description + " Flag"; // add alt text for accessibility
 
+        console.log("I am working 5");
         // Add "p" HTML tag for the description
         var description = document.createElement("p");
         description.textContent = location.description; // extract the description
 
+        console.log("I am working 6");
         // Add "p" HTML tag for the greeting
         var greeting = document.createElement("p");
         greeting.textContent = location.greeting;  // extract the greeting
-
+        console.log("I am working 7");
         // Append img and p HTML tags to the grid item DIV
         gridItem.appendChild(img);
         gridItem.appendChild(description);
         gridItem.appendChild(greeting);
 
         // Append the grid item DIV to the container DIV
+        console.log("I am working 8");
         container.appendChild(gridItem);
+        console.log("I am working 9");
     }
 </script>
 
