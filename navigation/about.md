@@ -42,14 +42,14 @@ permalink: /about/
         border-radius: 5px;
     }
     .imageflag {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     } 
     .image-row {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-    justify-content: space-between; /* this will add equal space between each image */
+        text-align: left;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between; /* this will add equal space between each image */
     }    
 
 </style>
@@ -70,13 +70,13 @@ permalink: /about/
 <!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
 <div class="arshia-grid-container" id="arshia-grid_container">
     <!-- content will be added here by JavaScript -->
-    <p>this will be added</p>
 </div>
 
 <script>
 
     console.log("I am working 1");
-    var container = document.getElementById("arshia-grid-container");
+    // var container = document.getElementById("arshia-grid-container");
+    var container = document.createElement("div");
     
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
